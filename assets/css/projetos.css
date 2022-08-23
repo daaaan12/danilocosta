@@ -1,0 +1,189 @@
+#projetos {
+    background-color: #2f4475;
+}
+
+.projetos {
+    padding-top: 93px;
+}
+
+.projetos h2, .projetos a {
+    text-align: center;
+}
+
+.projetos h2 {
+    padding-bottom: 70px;
+}
+
+a {
+    font-size: x-large;
+}
+
+button {
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(4,82,129);
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: rgb(4,82,129);
+}
+
+
+.projetos a {
+    display: inline;
+    color: blue;
+}
+
+
+.pro div p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #C4C4C4;
+}
+
+.pro:hover {
+    letter-spacing: 5px;
+}
+
+.pro div {
+    background-color: rgb(4,82,129);
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+.avatarprojetos {
+
+    left: 290px;
+    width:190px;
+    height: 188px;
+    position: relative;
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+.circulo {
+   
+    position: absolute;
+}
+
+.avatarprojetos:hover {
+    transform: scale(1.25);
+}
+
+
+
+
+@keyframes animate-stripes {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 60px 0;
+    }
+}
+
+@keyframes auto-progress {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+
+
+.progress-bar {
+    background-color: #1a1a1a;
+    height: 45px;
+    width: 450px;
+    margin: 90px auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    
+}
+
+
+
+.stripes {
+    background-size: 30px 30px;
+    background-image: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, .15) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, .15) 50%,
+        rgba(255, 255, 255, .15) 75%,
+        transparent 75%,
+        transparent
+    );
+}
+
+.stripes.animated {
+  animation: animate-stripes 0.6s linear infinite;
+}
+
+.stripes.animated.slower {
+  animation-duration: 1.25s;
+}
+
+.stripes.reverse {
+  animation-direction: reverse;
+}
+
+.progress-bar-inner {
+  color: #fff;
+  font-size: x-large;
+  display: block;
+  height: 45px;
+  width: 0%;
+  background-color: #140472;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+  position: relative;
+  animation: auto-progress 10s infinite linear;
+}
+
+
+
+@media (max-width: 600px) {
+    .projetos h2{
+        font-size: 35px;
+    }
+
+    .progress-bar {
+        max-width: 210px;
+    }
+
+    .avatarprojetos {
+        
+        position: relative;
+        left: -30px;
+        cursor: pointer;
+        transition: ease 1s;
+    }
+
+    .circulo {
+        max-width: 75px;
+
+    }
+}
+
+  
