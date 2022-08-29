@@ -20,7 +20,7 @@ nav {
 a {
     text-decoration: none;
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
     
     transition: ease-in-out 0.3s;
 }
@@ -66,7 +66,7 @@ img {
 
 /* criando início */
 #inicio {
-    background: linear-gradient(63.13deg, #405da0 51.04%, #3a5492 51.05%);
+    background: linear-gradient(63.13deg, #E0E2DB 51.04%, #D2D4C8 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -85,7 +85,7 @@ img {
 
 .apresentacao {
     max-width: 741px;
-    color:white;
+    color:rgb(2, 2, 2);
 }
 
 .descricao {
@@ -183,7 +183,7 @@ img {
 
 .link:hover {
     letter-spacing: 5px;
-    color: white;
+    color: rgb(2, 2, 2);
 }
 
 .desenho {
@@ -230,7 +230,7 @@ img {
 @media (max-width:1200px) {
     
     #inicio{
-        background: #405da0;
+        background: #E0E2DB;
         height: auto;
     }
 
@@ -253,6 +253,18 @@ img {
         text-align: center;
     }
 
+    .linkedin {
+        
+        width: 220px;
+        margin-top: 15px;
+    }
+
+    .github {
+        
+        width: 220px;
+        margin-top: 15px;
+    }
+
     .esquerda {
         margin-left: 15px;
     }
@@ -263,6 +275,92 @@ img {
 
 }
 
+@media (max-width:1200px) {
+    .desenho {
+        padding: 25px 0;
+    }
+
+    .altura-ajuste{
+        display: flex;
+        justify-content: center;
+    }
+    .organizador {
+        max-width: 300px;
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-areas:  
+        "desenho"
+        "descricao";
+        line-height: 35px;
+    }
+
+    #inicio {
+        display: flex;
+        justify-content: center;
+    }
+
+    .desenho {
+        display: flex;
+        justify-content: center;
+    }
+
+    .descricao {
+        font-size: 20px;
+    }
+
+    .meu-nome {
+        font-size: 30px;
+    }
+
+    .esquerda, .direita {
+        margin: 0;
+    }
+
+    .logo {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .barra{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-centro{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .centralizador{
+        margin: 0;
+    }
+    .barra-conteiner {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .barra-conteiner .logo{
+        width: 100%
+    }
+
+    .direita ul {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .direita ul a {
+        font-size: 35px;
+    }
 
     /* configurando menu mobile */
     .barra {
@@ -316,5 +414,4 @@ img {
 	width: 4em;
 	height: 2em;
 }
-	
  
