@@ -1,100 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Portfólio | Danilo Costa</title>
 
-  <!-- Arquivos CSS -->
-
-  <link rel="stylesheet" href="./assets/css/navegacao-inicio.css">
-  <link rel="stylesheet" href="./assets/css/sobre-mim.css">
-  <link rel="stylesheet" href="./assets/css/footer.css">
-  <link rel="stylesheet" href="./assets/css/projetos.css">
-  <link rel="stylesheet" href="./assets/css/habilidades.css">
-
-  <!-- Arquivos CSS -->
-
-  <title>Portfólio  ->  Danilo</title>
-
-
+  <!-- Navegação e início -->
+  <link rel="stylesheet" href="assets/css/navegacao-inicio.css" />
+  <!-- Sobre mim -->
+  <link rel="stylesheet" href="assets/css/sobre-mim.css" />
+  <!-- Projetos -->
+  <link rel="stylesheet" href="assets/css/projetos.css" />
+  <!-- Habilidades -->
+  <link rel="stylesheet" href="assets/css/habilidades.css" />
+  <!-- footer -->
+  <link rel="stylesheet" href="./assets/css/footer.css" />
 </head>
 
-
 <body onload="typeWriter(fName);" style="">
-
-  <!-- Menu -->
   <div>
-
-
-    <input id="close-menu" class="close-menu" type="checkbox" arial-label="close-menu" role="button" />
-        <label class="close-menu-label" for="close-menu" title="close-menu"></label>
-
+    <!-- menu -->
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button" />
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <div class="barra">
       <div class="menu-centro">
         <div class="barra-conteiner centralizador">
-          <div class="textocentro"></div>
+          <div class="logo esquerda">
+            <div class="space-logo">
 
+            </div>
+          </div>
           <nav class="direita">
             <ul onclick="getElementById('close-menu').checked=false;">
-              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#inicio">Início</a></li>
               <li><a href="#sobre-mim">Sobre mim</a></li>
-              <li><a href="#projetos"> Projetos</a></li>
-              <li><a href="#habilidades"> Habilidades</a></li>
-
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
             </ul>
           </nav>
         </div>
       </div>
     </div>
+    <!-- menu -->
 
-    <!-- Menu -->
-
-
-    <!-- Apresentação -->
-
-   <section id="inicio">
-    <div class="altura-ajuste">
-      <div class="inicio centralizador">
-        <div class="ajustador organizador">
-          <div class="apresentacao">
-            <p class="descricao">
-              Oi, eu sou <br />
-              <span class="meu-nome"> Danilo Costa.</span>
+    <!-- primeira tela -->
+    <section id="inicio">
+      <div class="altura-ajuste">
+        <div class="inicio centralizador">
+          <div class="ajustador organizador">
+            <div class="apresentacao">
+              <p class="descricao">
+                Oi, eu sou <br />
+                <span class="meu-nome"> Danilo Costa. </span>
+                <br />
+                <!-- Desenvolvedor Full Stack -->
+                Desenvolvedor Junior
+              </p>
               <br />
-              Desenvolvedor Junior
-            </p>
-            <br />
-            <div class="linkedin">
-              <a href="https://www.linkedin.com/in/danilo-costa-66413a22b/" target="_blank" class="link">Linkedin
-              </a>
+              <div class="linkedin">
+                <a href="https://www.linkedin.com/in/danilo-costa-66413a22b/" target="_blank" class="link">Linkedin</a>
+              </div>
+              <div class="github">
+                <a href="https://github.com/daaaan12" target="_blank" class="link">GitHub</a>
+              </div>
             </div>
-            <div class="github">
-              <a href="https://www.linkedin.com/in/danilo-costa-66413a22b/" target="_blank" class="link">GitHUB
-              </a>
-            </div>
-          </div>
-          <div class="desenho">
-            <div class="desenho2">
-              <img src="./assets/img/logocapa4.png" alt="">
-
+            <div class="desenho">
+              <div class="desenho2">
+                <img src="./assets/img/logocapa4.png" alt="LogoEu">
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
+    <!-- primeira tela -->
 
-    <!-- Apresentação -->
-
-    <!-- Sobre mim -->
-
+    <!-- sobre mim -->
     <section id="sobre-mim">
       <div class="centralizador">
         <div class="ajustador-2">
-          <div class="desenho-bg">
-            <img src="./assets/img/sobremim.jpeg" alt="logo">
+          <div class="avatar">
+            <div class="desenho-bg">
+              <img src="./assets/img/sobremim.jpeg" alt="avatar">
+            </div>
           </div>
           <div class="sobre-mim">
             <h2>Sobre mim</h2>
@@ -103,6 +94,7 @@
               Meu nome é Danilo Costa e sempre gostei do mundo da tecnologia.
               Meu primeiro contato com programação foi em 2008. Apesar de ter gostado da área, só
               comecei a dar o devido foco em 2022.
+
             </p>
             <br />
             <p>
@@ -116,74 +108,51 @@
           </div>
         </div>
       </div>
-
     </section>
+    <!-- sobre mim -->
 
-    <!-- obre mim -->
-
-    <!-- projetos -->
-
-    <section id="projetos">
-
-      <div class="centralizador projetos">
-
-        <h2 class="project">Projetos</h2>
-        <h2 class="project">EM PRODUÇÃO</h2  </div>
-
-      <div class="projetos-itens">
-        <div class="progress-bar stripes animated reverse slower">
-          <span class="progress-bar-inner"></span>
-        </div>
-        </div>
-     
-
-
-    </section>
-
-    <!-- projetos -->
-
-    <!-- habilidades -->
-
+    <!-- Habilidades -->
     <section id="habilidades">
       <div class="centralizador">
         <div class="habilidades-pd">
           <h2 class="project">Habilidades</h2>
           <div class="skills-descricao">
             <div class="conteiner-skills">
-
               <div class="skill-box skill1 html-skill">
-                <img class="icones-habilidades" src="./assets/img/habilidades/html.svg" alt="html-icon" />
+                <img class="icones-habilidades" src="./assets/img/html.svg" alt="html-icon" />
               </div>
-
               <div class="skill-box skill2 css-skill">
-                <img class="icones-habilidades" src="./assets/img/habilidades/css.svg" alt="css-icon" />
+                <img class="icones-habilidades" src="./assets/img/css.svg" alt="css-icon" />
               </div>
-
               <div class="skill-box skill3 js-skill">
-                <img class="icones-habilidades" src="./assets/img/habilidades/js.svg" alt="js-icon" />
+                <img class="icones-habilidades" src="./assets/img/js.svg" alt="js-icon" />
+              </div>
+              <!-- <div class="skill-box skill4"> <img class="icones-habilidades" src="/assets/img/node.svg" alt="node-icon"> </div>
+                <div class="skill-box skill5"> <img class="icones-habilidades" src="/assets/img/php.svg" alt="php-icon"> </div>
+                <div class="skill-box skill6"> <img class="icones-habilidades" src="/assets/img/java.svg" alt="java-icon"> </div>
+                <div class="skill-box skill8"> <img class="icones-habilidades" src="/assets/img/sql.svg" alt="sql-icon"> </div> -->
+              <div class="skill-box skill7">
+                <img class="icones-habilidades" src="./assets/img/react.svg" alt="react-icon" />
               </div>
 
-              <div class="skill-box skill4 ">
-                <img class="icones-habilidades" src="./assets/img/habilidades/react.svg" alt="react-icon" />
+              <div class="skill-box skill8">
+                <img class="icones-habilidades" src="./assets/img/python2.svg" alt="react-icon" />
+              </div>
+              <div class="skill-box skill13 sass-skill">
+                <img class="icones-habilidades" src="./assets/img/sass.svg" alt="python-icon" />
               </div>
 
-              <div class="skill-box skill5 ">
-                <img class="icones-habilidades" src="./assets/img/habilidades/python.svg" alt="python-icon" />
+
+              <div class="skill-box skill9 git-skill">
+                <img class="icones-habilidades" src="./assets/img/git.svg" alt="git-icon" />
+              </div>
+              <div class="skill-box skill10 github-skill">
+                <img class="icones-habilidades" src="./assets/img/github.svg" alt="github-icon" />
               </div>
 
-              <div class="skill-box skill6 sass-skill">
-                <img class="icones-habilidades" src="./assets/img/habilidades/sass.svg" alt="sass-icon" />
-              </div>
-
-              <div class="skill-box skill7 git-skill ">
-                <img class="icones-habilidades" src="./assets/img/habilidades/git.svg" alt="git-icon" />
-              </div>
-
-              <div class="skill-box skill8 github-skill">
-                <img class="icones-habilidades" src="./assets/img/habilidades/github.svg" alt="github-icon" />
-              </div>
+              <!--  <div class="skill-box skill11"> <img class="icones-habilidades" src="/assets/img/bootstrap.svg" alt="bootstrap-icon"> </div> -->
+              <!--   <div class="skill-box skill12"> <img class="icones-habilidades" src="/assets/img/typescript.svg" alt="typescript-icon"> </div> -->
             </div>
-
             <div class="conteiner-descricao">
               <p class="texto-descricao">
                 /* Passe o mouse por cima de alguma habilidade para ler a
@@ -194,11 +163,28 @@
         </div>
       </div>
     </section>
+    <!-- Habilidades -->
 
-    <!-- habilidades -->
+    <!-- Projetos -->
+    <section id="projetos">
+      <div class="centralizador projetos">
+        <h2 class="project">Projetos</h2>
+        <h2 class="project">EM PRODUÇÃO</h2>
+      </div>
+
+      <div class="projetos-itens">
+
+        <div class="progress-bar stripes animated reverse slower">
+          <span class="progress-bar-inner"></span>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- Projetos -->
+
 
     <!-- footer -->
-
     <footer class="footer">
       <div class="footer-conteiner">
         <div class="contato-creditos">
@@ -209,40 +195,35 @@
         <div class="icons">
           <div class="links links1">
             <a href="https://github.com/danilo-costa" target="_blank">
-              <img class="transparente" src="./assets/img/habilidades/githubff.svg" alt="github-icon" />
+              <img class="transparente" src="./assets/img/githubff.svg" alt="github-icon" />
             </a>
           </div>
           <div class="links links2">
             <a href="https://www.linkedin.com/in/danilo-costa-66413a22b/" target="_blank">
-              <img class="transparente" src="./assets/img/habilidades/linkedinff.svg" alt="github-icon" />
+              <img class="transparente" src="./assets/img/linkedinff.svg" alt="github-icon" />
             </a>
           </div>
         </div>
       </div>
     </footer>
-
     <!-- footer -->
+  </div>
+  <script src="./assets/js/scroll.js"></script>
+  <script src="./assets/js/maquina_escrever.js"></script>
+  <script src="./assets/js/habilidades.js"></script>
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJCLD5YB2R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-DJCLD5YB2R');
+
+
+    
+  </script>
 </body>
-
-
-<!-- Arquivos JavaScript -->
-
-<script src="./assets/js/maquina-escrever.js"></script>
-<script src="./assets/js/scroll.js"></script>
-<script src="./assets/js/habilidades.js"></script>
-
-<script async src = "https://www.googletagmanager.com/gtag/js?id=G-DJCLD5YB2R"></script>
-<script>
- window.dataLayer = window.dataLayer || [];
- function gtag() { dataLayer.push(arguments); }
- gtag('js', new Date());
-              
- gtag ('config', 'G-DJCLD5YB2R');
-                                            
- </script>
-  
-
-<!-- Arquivos JavaScript -->
 
 </html>
