@@ -66,24 +66,8 @@ button:hover {
     justify-content: center;
 }
 
-.avatarprojetos {
 
-    left: 290px;
-    width:190px;
-    height: 188px;
-    position: relative;
-    cursor: pointer;
-    transition: ease 1s;
-}
 
-.circulo {
-   
-    position: absolute;
-}
-
-.avatarprojetos:hover {
-    transform: scale(1.25);
-}
 
 
 
@@ -172,18 +156,7 @@ button:hover {
         max-width: 210px;
     }
 
-    .avatarprojetos {
-        
-        position: relative;
-        left: -30px;
-        cursor: pointer;
-        transition: ease 1s;
-    }
 
-    .circulo {
-        max-width: 75px;
-
-    }
 }
 
   
