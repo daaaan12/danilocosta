@@ -85,7 +85,7 @@ img {
 
 .apresentacao {
     max-width: 741px;
-    color:rgb(2, 2, 2);
+    color:#fff;
 }
 
 .descricao {
@@ -183,7 +183,7 @@ img {
 
 .link:hover {
     letter-spacing: 5px;
-    color: rgb(2, 2, 2);
+    color: #fff;
 }
 
 .desenho {
