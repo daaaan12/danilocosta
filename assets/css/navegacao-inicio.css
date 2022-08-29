@@ -20,7 +20,7 @@ nav {
 a {
     text-decoration: none;
     display: block;
-    color: rgb(2, 2, 2);
+    color: #fff;
     
     transition: ease-in-out 0.3s;
 }
@@ -230,7 +230,7 @@ img {
 @media (max-width:1200px) {
     
     #inicio{
-        background: #E0E2DB;
+        background: #293b66;
         height: auto;
     }
 
