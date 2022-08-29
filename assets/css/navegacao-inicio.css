@@ -1,78 +1,11 @@
 /* criando barra de navegação */
 
 body {
-    margin: auto;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    overflow: auto;
-    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
-    animation: gradient 15s ease infinite;
-    background-size: 400% 400%;
-    background-attachment: fixed;
+    width: 100%;
 }
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 100% 100%;
-    }
-    100% {
-        background-position: 0% 0%;
-    }
-}
-
-.wave {
-    background: rgb(255 255 255 / 25%);
-    border-radius: 1000% 1000% 0 0;
-    position: fixed;
-    width: 200%;
-    height: 12em;
-    animation: wave 10s -3s linear infinite;
-    transform: translate3d(0, 0, 0);
-    opacity: 0.8;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.wave:nth-of-type(2) {
-    bottom: -1.25em;
-    animation: wave 18s linear reverse infinite;
-    opacity: 0.8;
-}
-
-.wave:nth-of-type(3) {
-    bottom: -2.5em;
-    animation: wave 20s -1s reverse infinite;
-    opacity: 0.9;
-}
-
-@keyframes wave {
-    2% {
-        transform: translateX(1);
-    }
-
-    25% {
-        transform: translateX(-25%);
-    }
-
-    50% {
-        transform: translateX(-50%);
-    }
-
-    75% {
-        transform: translateX(-25%);
-    }
-
-    100% {
-        transform: translateX(1);
-    }
-}
-
 
 ul {
-    height: 20px;
+    height: 60px;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -88,6 +21,7 @@ a {
     text-decoration: none;
     display: block;
     color: rgb(255, 255, 255);
+    
     transition: ease-in-out 0.3s;
 }
 
@@ -96,29 +30,20 @@ a:hover {
 }
 
 img {
+   
     max-width: 100%;
+    
     display: block;
 }
 
-.esquerda {
-    margin-left: 15px;
-}
-
-.direita {
-    font-size: 25px;
-    margin-right: 15px;
-}
-
-
-.textocentro {
+.logo {
    
     padding: 15px 0;
 }
 
 .barra {
     width: 100%;
-    height: 100px;
-    background: rgba(114, 115, 116, 0.11);
+    background: rgba(196, 196, 196, 0.11);
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
@@ -139,17 +64,9 @@ img {
 }
 /* barra de navegação terminada */
 
-
 /* criando início */
 #inicio {
-    margin: auto;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    overflow: auto;
-    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
-    animation: gradient 15s ease infinite;
-    background-size: 400% 400%;
-    background-attachment: fixed;
-
+    background: linear-gradient(63.13deg, #405da0 51.04%, #3a5492 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -181,40 +98,88 @@ img {
 }
 
 .linkedin {
-    margin: 20px;
-    width: 479px;
-    height: 85px;
-    background-color:#1311c0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 62px;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 8.5px 1px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 17px;
+    margin: 10px;
+    text-align: center;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
 }
 
+.linkedin:hover {
+    border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+}
+
+.linkedin:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+    }
+
 .linkedin a {
-    color: white;
     width: 100%;
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 .github {
-    margin: 20px;
-    width: 479px;
-    height: 85px;
-    background-color:#1f1f22;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 62px;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 8.5px 17px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 17px;
+    margin: 10px;
+    text-align: center;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
 }
 
-.link {
-    font-size:25px;
-    width:50%;
-    text-align: center;
-    padding: 12px 0 ;
-    transition: ease-in-out 0.3s;
+.github:hover {
+    border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
 }
+
+.github:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+    }
+
+.github a {
+    width: 100%;
+    padding: 15px 0;
+}
+
+
 
 .link:hover {
     letter-spacing: 5px;
@@ -262,11 +227,10 @@ img {
     }
 }
 
-
 @media (max-width:1200px) {
-
+    
     #inicio{
-        background-color: #405da0;
+        background: #405da0;
         height: auto;
     }
 
@@ -282,25 +246,36 @@ img {
         padding: 100px 0;
     }
 
+    .apresentacao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
     .linkedin {
         
-        width: 255px;
-        margin-top: 25px;
+        width: 220px;
+        margin-top: 15px;
     }
 
     .github {
-        width: 255px;
-        margin-top: 25px;
+        
+        width: 220px;
+        margin-top: 15px;
     }
 
-   
-    
+    .esquerda {
+        margin-left: 15px;
+    }
+
+    .direita {
+        margin-right: 15px;
+    }
+
 }
 
-@media (max-width:950px) {
-
-   
-
+@media (max-width:1200px) {
     .desenho {
         padding: 25px 0;
     }
@@ -312,7 +287,6 @@ img {
     .organizador {
         max-width: 300px;
         display: grid;
-        
         grid-template-columns: 300px;
         grid-template-areas:  
         "desenho"
@@ -331,7 +305,6 @@ img {
     }
 
     .descricao {
-        padding: 70px 30px;
         font-size: 20px;
     }
 
@@ -343,7 +316,12 @@ img {
         margin: 0;
     }
 
-    
+    .logo {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
     .barra{
         height: 100vh;
         display: flex;
@@ -428,4 +406,12 @@ img {
 
 }
 
+
+.space-logo { 
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	width: 4em;
+	height: 2em;
+}
 	
