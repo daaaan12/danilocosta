@@ -66,56 +66,56 @@
 }
 
 .skill1{
-    background-image: url(./assets/img/html2.svg);
+    background-image: url(../assets/img/html2.svg);
 }
 
 .skill2 {
-    background-image: url(./assets/img/css2.svg);
+    background-image: url(../assets/img/css2.svg);
 }
 
 .skill3 {
-    background-image: url(./assets/img/js2.svg);
+    background-image: url(../assets/img/js2.svg);
 }
 
 .skill4 {
-    background-image: url(./assets/img/node2.svg);
+    background-image: url(../assets/img/node2.svg);
 }
 
 .skill5 {
-    background-image: url(./assets/img/php2.svg);
+    background-image: url(../assets/img/php2.svg);
 }
 
 .skill6 {
-    background-image: url(./assets/img/java2.svg);
+    background-image: url(../assets/img/java2.svg);
 }
 
 .skill7 {
-    background-image: url(./assets/img/react2.svg);
+    background-image: url(../assets/img/react2.svg);
 }
 
 .skill8 {
-    background-image: url(./assets/img/python2.svg);
+    background-image: url(../assets/img/python2.svg);
 }
 
 .skill9 {
-    background-image: url(./assets/img/git2.svg);
+    background-image: url(../assets/img/git2.svg);
 }
 
 
 .skill10 {
-    background-image: url(./assets/img/github2.svg);
+    background-image: url(../assets/img/github2.svg);
 }
 
 .skill11 {
-    background-image: url(./assets/img/bootstrap2.svg);
+    background-image: url(../assets/img/bootstrap2.svg);
 }
 
 .skill12 {
-    background-image: url(./assets/img/typescript2.svg);
+    background-image: url(../assets/img/typescript2.svg);
 }
 
 .skill13 {
-    background-image: url(./assets/img/sass2.svg);
+    background-image: url(../assets/img/sass2.svg);
 }
 
 #fundo {
