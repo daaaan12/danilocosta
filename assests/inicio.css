@@ -91,59 +91,120 @@ img {
 }
 
 .linkedin {
-    max-width: 100px;
-    color: rgb(16, 22, 104);
-    padding: 10px 50px;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    border: 5px solid rgb(16, 22, 104);
-    font-size: 1rem;
-    font-family: sans-serif;
-    font-weight: bold;
-    position: relative;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    box-shadow: 1px 1px 0, 2px 2px 0, 3px 3px 0, 4px 4px 0, 5px 5px 0, 6px 6px 0;
-    background-color: #fff;
+   
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
     
 }
 
+.linkedin:focus {
+    text-decoration: none;
+  }
+  
+  .linkedin:hover {
+    text-decoration: none;
+  }
+  
+  .linkedin:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .linkedin:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+
 .linkedin a{
-    color: black;
+    color: white;
+    font-size: 30px;
     transition: all 0.5s;
 }
 
 .linkedin a:hover {
-    letter-spacing: 3px;
+    color: #0e76a8;
 }
-
 
 .github {
-    margin: 10px;
-    max-width: 100px;
-    color: rgb(16, 22, 104);
-    padding: 10px 50px;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    border: 5px solid rgb(16, 22, 104);
-    font-size: 1rem;
-    font-family: sans-serif;
-    font-weight: bold;
-    position: relative;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    box-shadow: 1px 1px 0, 2px 2px 0, 3px 3px 0, 4px 4px 0, 5px 5px 0, 6px 6px 0;
-    background-color: #fff;
     
-}
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+      
+  }
+  
+  .github:focus {
+      text-decoration: none;
+    }
+    
+    .github:hover {
+      text-decoration: none;
+    }
+    
+    .github:active {
+      box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+      outline: 0;
+    }
+    
+    .github:not([disabled]):active {
+      box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+      transform: translate(2px, 2px);
+    }
+  
+  .github a{
+      color: white;
+      font-size: 30px;
+      transition: all 0.5s;
+  }
 
-.github a {
-    color: black;
-}
+  .github a:hover{
+    color: #0e76a8;
+  }
 
-.github a:hover {
-    letter-spacing: 4px;
-}
 
 
 .desenho {
