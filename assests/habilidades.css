@@ -5,7 +5,7 @@
 
 .habilidades-pd h2 {
     text-align: center;
-    font-size: 55px;
+    font-size: 75px;
     padding-bottom: 70px;
 }
 
@@ -98,6 +98,7 @@
 
 @media (max-width: 1200px) {
     .habilidades-pd h2 {
+        font-size: 45px;
         text-align: center;
         padding-bottom: 70px;
     }
