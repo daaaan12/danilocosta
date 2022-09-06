@@ -250,6 +250,14 @@ img {
         justify-content: center;
         align-items: center;
     }
+    
+    .menu-centro {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
 
     .direita ul {
         height: auto;
