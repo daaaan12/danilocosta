@@ -1,0 +1,127 @@
+.habilidades-pd {
+    padding-top: 93px;
+
+}
+
+.habilidades-pd h2 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.skills-descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 120px;
+}
+
+.conteiner-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 55%;
+}
+
+.skill-box {
+    width: 96px;
+    height: 96px;
+    background-color: #C4C4C4;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+   
+}
+
+.skill-box:hover {
+    background-color: white;
+    transform: scale(1.4);
+}
+
+.conteiner-descricao {
+    color: white;
+    font-family: 'Quando', serif;
+    font-size: 20px;
+    max-width: 40%;
+}
+
+.skill-box .icones-habilidades {
+    transition:  ease-in-out 0.3s;
+}
+
+.skill-box:hover .icones-habilidades {
+    opacity: 0;
+}
+
+.skill1 {
+    background-image: url(../img/hab/htmlcolor.png);
+  
+}
+
+.skill2 {
+    background-image: url(../img/hab/csscolor.png);
+}
+
+.skill3 {
+    background-image: url(../img/hab/jscolor.png);
+}
+
+.skill4 {
+    background-image: url(../img/hab/reactcolor.png);
+}
+
+.skill5 {
+    background-image: url(../img/hab/sasscolor.png);
+}
+
+.skill6 {
+    background-image: url(../img/hab/githubcolor.png);
+}
+
+.skill7 {
+    background-image: url(../img/hab/gitcolor.png);
+}
+
+
+#fundo {
+    fill: floralwhite;
+}
+
+
+@media (max-width: 1200px) {
+    .habilidades-pd h2 {
+        text-align: center;
+        padding-bottom: 70px;
+    }
+
+   .conteiner-descricao {
+    font-size: 20px;
+   }
+
+   .conteiner-skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 300px;
+   }
+
+   .conteiner-descricao {
+    position: relative;
+    top: 120px;
+    right: 50px;
+    align-items: center;
+   }
+  
+
+   .skill-box:hover {
+    background-color: white;
+    transform: scale(1.3);
+   }
+}
