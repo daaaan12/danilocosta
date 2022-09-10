@@ -91,120 +91,97 @@ img {
 }
 
 .linkedin {
-   
-  appearance: button;
-  background-color: #000;
-  background-image: none;
-  border: 1px solid #000;
-  border-radius: 4px;
-  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  background-color: #0f0f8a;
+  border: 0 solid #2d2e30;
   box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
+  color: #000000;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.8rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
   position: relative;
-  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  margin: 0 5px 10px 0;
-  overflow: visible;
-  padding: 12px 40px;
   text-align: center;
-  text-transform: none;
-  touch-action: manipulation;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
   user-select: none;
   -webkit-user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-    
+  touch-action: manipulation;
 }
 
 .linkedin:focus {
-    text-decoration: none;
-  }
-  
-  .linkedin:hover {
-    text-decoration: none;
-  }
-  
-  .linkedin:active {
-    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
-    outline: 0;
-  }
-  
-  .linkedin:not([disabled]):active {
-    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
-    transform: translate(2px, 2px);
-  }
-
-.linkedin a{
-    color: white;
-    font-size: 30px;
-    transition: all 0.5s;
+  outline: 0;
 }
 
-.linkedin a:hover {
-    color: #0e76a8;
+.linkedin:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
 }
+
+.linkedin:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+
 
 .github {
-    
-    appearance: button;
-    background-color: #000;
-    background-image: none;
-    border: 1px solid #000;
-    border-radius: 4px;
-    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    background-color: #303035;
+    border: 0 solid #2d2e30;
     box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
+    color: #000000;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.8rem;
+    font-weight: 700;
     justify-content: center;
-    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    margin: 0 5px 10px 0;
-    overflow: visible;
-    padding: 12px 40px;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
     text-align: center;
-    text-transform: none;
-    touch-action: manipulation;
+    margin: 20px;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
     user-select: none;
     -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-      
+    touch-action: manipulation;
   }
   
   .github:focus {
-      text-decoration: none;
-    }
-    
-    .github:hover {
-      text-decoration: none;
-    }
-    
-    .github:active {
-      box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
-      outline: 0;
-    }
-    
-    .github:not([disabled]):active {
-      box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
-      transform: translate(2px, 2px);
-    }
+    outline: 0;
+  }
   
-  .github a{
-      color: white;
-      font-size: 30px;
-      transition: all 0.5s;
+  .github:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
   }
-
-  .github a:hover{
-    color: #0e76a8;
+  
+  .github:hover:after {
+    bottom: 2px;
+    left: 2px;
   }
-
 
 
 .desenho {
@@ -250,9 +227,7 @@ img {
 
 
 
-/* MAX-WIDTH 688PX*/
-
-@media (max-width: 1312px) {
+@media (max-width: 1200px) {
     #inicio {
         height: auto;
     }
