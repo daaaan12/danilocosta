@@ -1,3 +1,3 @@
 # MEU PORTFOLIO
 
-![image](./imgportfolio.pdf)
+![image](./imgportfolio.png)
