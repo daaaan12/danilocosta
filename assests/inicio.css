@@ -113,7 +113,7 @@ img {
   transform: rotate(-2deg);
   user-select: none;
   -webkit-user-select: none;
-  touch-action: manipulation;
+ 
 }
 
 .linkedin:focus {
@@ -161,7 +161,7 @@ img {
     transform: rotate(-2deg);
     user-select: none;
     -webkit-user-select: none;
-    touch-action: manipulation;
+   
   }
   
   .github:focus {
