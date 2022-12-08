@@ -258,16 +258,6 @@ img {
         text-align: center;
     }
 
-    .alinhamento-botoes {
-        border: 1px solid red;
-        width: 40%;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        
-    }
-
     .linkedin {
         width: 200px;
         margin-top: 25px;
